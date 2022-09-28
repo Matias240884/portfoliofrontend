@@ -1,0 +1,40 @@
+h1{color:red;}
+.destacado{color:blue;}
+h2{color:red;}
+div img{margin-right: 0em;}
+.buttonFacebook {
+    background-color:blue;
+    border-color:black;
+    color:white;
+    border-radius: 6px;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 3px 5px;
+    }
+.buttonInstagram {
+    background-color:red;
+    border-color:black;
+    color:white;
+    border-radius: 6px;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 3px 5px;
+    }  
+.buttonWhatsapp {
+    background-color:green;
+    border-color:black;
+    color:white;
+    border-radius: 6px;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 3px 5px;
+    }
+.buttonLogin {
+    background-color:grey;
+    border-color:black;
+    color:white;
+    border-radius: 6px;
+    margin-left: 0.5em;
+    margin-right: 1em;
+    padding: 8px 25px;
+    }
