@@ -1,0 +1,26 @@
+<!--Educación-->
+<section class="educacion mt-3 card mat-card">  
+    <div class="container text-start izquierda">
+      <h2 class="mt-3">Educación</h2><br>
+      <ul class="item-list">
+        <li class="lado" *ngFor="let educacion of educacionLista">
+          <div class="data-container lado">
+            <a [href]="educacion.url" target="_black">
+              <div class="logo-image-container">
+                <img [src]="educacion.img" alt="logo ACA" class="img-fluid" width="60%">
+              </div></a>
+              <div class="list-info">
+                <div>
+                  <h3>{{educacion.school}}</h3>
+                  <p class="mt-1 pt-15">{{educacion.title}}</p>
+                  <p><time>{{educacion.start}}</time> - <time>{{educacion.end}}</time></p>
+                </div>
+              </div>            
+          </div>
+          <div class="data-control">
+            <div class="btn-edit"><a href="#" class="btn-right mt-0"><i class="fa fa-pen"></i></a></div>
+          </div>
+        </li>
+      </ul>  
+    </div>
+  </section>

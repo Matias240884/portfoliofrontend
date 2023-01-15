@@ -1,0 +1,106 @@
+/* You can add global styles to this file, and also import other style files */
+.bg-violet{
+    background-color: black ;
+}
+.list-group{
+    --bs-list-group-bg: transparent !important;
+    --bs-list-group-border-color: transparent !important;
+}
+.fa-brands.fa-linkedin.fa-2x:hover{
+    --bs-text-opacity: 1;
+    color:#0c1adfea !important;
+}
+.fa-brands.fa-instagram.fa-2x:hover{
+    --bs-text-opacity: 1;
+    color:#e70a0aea !important;
+}
+.fa-solid.fa-user-lock.fa-2x:hover{
+    --bs-text-opacity: 1;
+    color:#09f515ea !important;
+}
+section.banner{
+    background-image: url(/assets/descarga.png);
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -msn-background-size: cover;
+}
+h1.intro{
+    padding-top: 8%;
+    font-size: 4rem;
+}
+.mat-card {
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding : 10px;
+    border-color: #0a66c2;
+}
+.buttonproyect {
+    background-color:transparent !important;
+    border-color:black;
+    color:black;
+    border-radius: 6px;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 3px 5px;
+}
+.login{
+    height: 75vh;
+}
+.formulario-login{
+    margin-top: 9%;
+}
+.admin{
+    font-size: 1.5rem;
+}
+.link{
+    text-decoration: none;
+    color: #000;
+}
+nav.vertical{
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+}
+li.vertical{
+    display: block;
+    margin: 0;
+    writing-mode: vertical;
+    padding: 0.75rem 0;
+    font-size: 1.25rem;    
+}
+a, a:hover {
+    text-decoration: none;
+    color:#000;
+}
+footer.bg-black{
+    width: 100%;
+    height: 10%;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+}
+.extra{
+    margin-top: 10rem;
+}
+.izquierda{
+    margin-left: 0;
+}
+.derecha{
+    float: right;
+    margin-right: 0;
+}
+.lado{
+    display: flex;
+    align-items:center;
+}
+.medio{
+    vertical-align: middle;
+}

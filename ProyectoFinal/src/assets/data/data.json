@@ -1,0 +1,85 @@
+{
+    "name": "Matías Ramunno",
+    "image": "/assets/logo arg programa.png",
+    "position": "Desarrollador Full Stack Jr.",
+    "description": {
+        "image": "/assets/Fotorostro1.png",
+        "about": "Soy una persona pro-activa que busca un constante crecimiento profesional y personal"
+    },    
+    "experience": [{
+        "company": "Asociación de Cooperativas Argentinas",
+        "position": "SubJefe Area de mercaderia",
+        "img": "/assets/aca-logo.png",
+        "url": "https://www.acacoop.com.ar/",
+        "alt": "logo ACA",
+        "start": "agosto 2011",
+        "end": "mayo 2017",
+        "timeElapsed": "6 años y 9 meses",
+        "about": "Responsabilidades: gestión y control de mercaderia en su ingresos, aplicación a contratos, liquidación parciales y finales. Gestión de cobro de liquidaciones finales."
+    },
+    {
+        "company": "Comunidad PadreMisericordioso",
+        "position": "Administrador",
+        "img": "/assets/Logo-Comunidad PMisericordioso.png",
+        "url": "https://padremisericordioso.org/",
+        "alt": "logo Padre Misericordioso",
+        "start": "mayo 2017",
+        "end": "octubre 2018",
+        "timeElapsed": "1 años y 5 meses",
+        "about": "Responsabilidades: liquidación y pago de honorarios profesionales. Ante organismos nacionales y provinciales: Gestión de cobro y habilitación. Tareas administrativas en general"
+    },
+    {
+        "company": "Nuskin",
+        "position": "Director de Marca",
+        "img": "/assets/1logo nuskin.png",
+        "url": "https://www.nuskin.com/content/nuskin/es_AR/home.html",
+        "alt":"logo Nuskin",
+        "start": "agosto 2016",
+        "end": "actualidad",
+        "timeElapsed": "6 años y 5 meses",
+        "about": "Apertura de canales de comercialización nacional e internacionales, formación a emprendedores, comercialización a través de redes sociales, desarrollo y optimización de procesos."
+    },
+    {
+        "company": "Contador Público",
+        "position": "Profesional independiente",
+        "img": "/assets/logo UNR.png",
+        "url": "https://www.fcecon.unr.edu.ar/",
+        "alt":"logo UNR",
+        "start": "enero 2012",
+        "end": "actualidad",
+        "timeElapsed": "11 años",
+        "about": "Consultaría a monotributistas. Inscripciones a nivel nacional y provincial (AFIP, API). Armado de balances, libros diarios y mayores en sistemas contables digitales (Regisoft)."
+    }
+    ],
+    "education":[{
+        "school": "CFR",
+        "title": "Técnico en gestión y administración de la empresa agropecuaria",
+        "img": "/assets/Logo CFR.png",
+        "url": "https://fundacionmarzano.cfralfredorueda.org/",
+        "alt": "logo CFR",
+        "start": "1998",
+        "end": "2002"
+    },
+    {
+        "school": "UNR",
+        "title": "Contador Público",
+        "img": "/assets/logo UNR.png",
+        "url": "https://www.fcecon.unr.edu.ar/",
+        "alt": "logo UNR",
+        "start": "1998",
+        "end": "2002"
+    },
+    {
+        "school": "Argentina Programa",
+        "title": "Desarrollador Full Stack Jr",
+        "img": "/assets/logo arg programa1.png",
+        "url": "https://www.argentina.gob.ar/economia/conocimiento/argentina-programa",
+        "alt": "logo Argentina Programa",
+        "start": "1998",
+        "end": "2002"
+    }],
+    "proyecto": {
+        "image": "/assets/logo arg programa.png",
+        "description": "Aplicación web full stack con datos personales, estudios cursados y experiencia laboral"
+    }
+}

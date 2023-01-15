@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg bg-black">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="">
+            <img [src]="miPorfolio.image" alt="Logo Argentina Programa" class="w-50" >
+          </a> 
+             <ul class="list-group list-group-horizontal">
+                <li class="list-group-item"><a href="https://www.linkedin.com/in/mat%C3%ADas-ramunno/" target="_black"><i class="fa-brands fa-linkedin fa-2x text-white"></i></a></li>
+                <li class="list-group-item"><a href="https://www.instagram.com/matiasramunno/" target="_black"><i class="fa-brands fa-instagram fa-2x text-white"></i></a></li>
+                <li class="list-group-item"><a href="https://github.com/Matias240884" target="_black"><i class="fa-brands fa-github fa-2x text-white"></i></a></li>
+                <li class="list-group-item">
+                    <!-- Boton para enviar al login-->
+                        <a routerLink="/login"><i class="fa-solid fa-user-lock fa-2x text-white"></i></a>
+                </li>
+            </ul>   
+    </div>
+  </nav>  
+  <!--Sesión Banner-->
+  <section class="banner">
+    <h1 class="text-black text-center intro">
+        {{miPorfolio.name}} <br> {{miPorfolio.position}}
+    </h1>
+  </section> 

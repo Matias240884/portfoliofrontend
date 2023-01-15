@@ -1,0 +1,83 @@
+<!--Experiencia-->
+<section class="experiencia mt-3 card mat-card">   
+    <div class="container text-start izquierda">
+      <h2 class="mt-3">Experiencia</h2><br>
+      <ul class="item-list">
+        <li class="lado" *ngFor="let experiencia of experienciaLista">
+          <div class="data-container lado">
+            <a [href]="experiencia.url" target="_black">
+              <div class="logo-image-container">
+                <img [src]="experiencia.img" alt="logo ACA" class="img-fluid" width="70%">
+              </div></a>
+              <div class="list-info pt-10 text-justify">
+                <div>
+                  <h3>{{experiencia.company}}</h3><br>
+                  <p>{{experiencia.about}}</p><br>
+                  <p><time>{{experiencia.start}}</time> - <time>{{experiencia.end}}</time> - {{experiencia.timeElapsed}}</p>
+                </div>
+              </div>            
+          </div>
+          <div class="data-control medio">
+            <div class="btn-edit"><a href="#" class="btn-right mt-0"><i class="fa fa-pen"></i></a></div>
+          </div>
+        </li>
+        <!--li class="lado">
+          <div class="data-container lado">
+            <a href="https://padremisericordioso.org/" target="_black">
+              <div class="logo-image-container">
+                <img src="/assets/Logo-Comunidad PMisericordioso.png" alt="logo Padre Misericordioso" class="rounded-circle img-fluid" width="70%">
+              </div></a>
+              <div class="list-info">
+                <div>
+                  <h3>COMUNIDAD PADRE MISERICORDIOSO</h3>
+                  <p class="mt-1 pt-15">Como administrador de la asociación me ocupe de realizar</p>
+                  <p><time>mayo 2017 - octubre 2018 - 1 año y 5 meses</time></p>
+                </div>
+              </div>            
+          </div>
+          <div class="data-control derecha">
+            <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
+          </div>
+        </li-->
+      </ul>
+      <!--<div class="row">            
+        <div class="col-2"><a href="https://www.acacoop.com.ar/" target="_black">
+          <img src="/assets/aca-logo.png" alt="logo ACA" class="rounded-circle img-fluid" width="100%"></a>
+        </div> 
+        <div class="col-9 mt-10" >
+           <h3>ASOCIACIÓN DE COOPERATIVAS ARGENTINAS</h3>
+           <h4 class="mt-1 pt-15">Como Subjefe del area de mercaderia</h4>
+           <h5>agosto 2011 - mayo 2017 - 6 años y 9 meses</h5>
+        </div>  
+        <div class="col-1 mt-10 derecha" >
+          <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
+        </div>           
+      </div><br>
+        <div class="row">
+          <div class="col-2"><a href="https://padremisericordioso.org/" target="_black">
+            <img src="/assets/Logo-Comunidad PMisericordioso.png" alt="logo Padre Misericordioso" class="rounded-circle img-fluid" width="100%"></a>
+          </div>
+          <div class="col-9 mt-10" >
+            <h3>COMUNIDAD PADRE MISERICORDIOSO</h3>
+            <h4 class="mt-1 pt-15">Como administrador de la asociación me ocupe de realizar</h4>
+            <h5>mayo 2017 - octubre 2018 - 1 año y 5 meses</h5>
+          </div>
+            <div class="col-1 mt-10 derecha" >
+              <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
+            </div>                          
+        </div><br>
+        <div class="row">
+          <div class="col-2"><a href="https://www.nuskin.com/content/nuskin/es_AR/home.html" target="_black">
+            <img src="/assets/1logo nuskin.png" alt="logo Nuskin" class="rounded-circle img-fluid" width="60%"></a>
+          </div>  
+          <div class="col-9 mt-10" >
+            <h3>NUSKIN</h3>
+            <h4 class="mt-1 pt-15">Como Director de la marca Nuskin</h4>
+            <h5>agosto 2016 - actualidad - 6 años y 4 meses</h5>
+          </div>  
+          <div class="col-1 mt-10 derecha" >
+            <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
+          </div>                        
+        </div>-->
+    </div>
+  </section>
